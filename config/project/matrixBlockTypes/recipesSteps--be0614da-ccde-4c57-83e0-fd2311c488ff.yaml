@@ -1,0 +1,94 @@
+field: 8753086a-029b-4530-87be-a3f3fab4e31e # Recipe Contents
+fieldLayouts:
+  3224e133-aebf-408a-9a64-a47e6fad2d7d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 409d28fb-240c-4f11-8c52-563b0f2a74fa # Steps Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e595ea7-c367-4135-89bd-8bd97089d109
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 76f34821-ba82-4b35-9cef-0ace626928ed # Steps Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25f78ce1-17a4-4995-8850-56f2f530f39a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2213331b-f130-4b56-a460-3582f8e68c9e
+        userCondition: null
+fields:
+  76f34821-ba82-4b35-9cef-0ace626928ed: # Steps Content
+    columnSuffix: sndnlonp
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsContent
+    instructions: null
+    name: 'Steps Content'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Step Instructions'
+                -
+                  - handle
+                  - stepInstructions
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+      defaults: null
+      maxRows: null
+      minRows: null
+      staticRows: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  409d28fb-240c-4f11-8c52-563b0f2a74fa: # Steps Title
+    columnSuffix: htnccibg
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsTitle
+    instructions: null
+    name: 'Steps Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: recipesSteps
+name: 'Recipes Steps'
+sortOrder: 4

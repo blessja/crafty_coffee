@@ -1,0 +1,70 @@
+fieldLayouts:
+  3f737e94-2830-47db-a5eb-ecf3555af206:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6f9a1ca4-f4b6-40e1-8e51-eb4c3ef4c813
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 11851a68-ad9f-443d-9402-e31f4b444ed3 # Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9349ba1d-179e-4e18-b715-8a9d5a7b3fcd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe4d2410-8a1a-4c1a-aa5e-ad9323383bec # News Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6741446e-4e62-40c1-a047-fe3db83dfa00
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d8910a0a-5b70-417c-af7a-979f0f8a6762
+        userCondition: null
+handle: news
+hasTitleField: true
+name: News
+section: f6450a21-cee6-4a38-b3f9-f5f958ef1227 # News
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

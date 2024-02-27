@@ -1,0 +1,91 @@
+dateModified: 1699554131
+elementSources:
+  craft\elements\Category:
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'group:34d11e95-19c1-4661-b55d-7fe397a46924' # Drink Styles
+      tableAttributes:
+        - 'field:1609f9cc-2b9a-4b5f-8d4a-886aa9578044' # Style Description 
+        - link
+        - uri
+      type: native
+email:
+  fromEmail: jaydenj772@gmail.com
+  fromName: craftycoffee
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+meta:
+  __names__:
+    1b707a57-9bac-4eba-b060-ca47b92bc03f: Drinks # Drinks
+    2b8fcf5b-0744-4621-8cbf-054ac7736bc8: News # News
+    2bcec574-6633-4b52-977c-c8ad4384a15e: '840x200 Thumb' # 840x200 Thumb
+    2f40ddf5-d99a-4ea5-958d-61ecc44ea895: 'Drink style' # Drink style
+    3a9130b9-bf1a-42a0-8b42-c14e0a59c03a: Drinks # Drinks
+    4e107497-f698-4b21-9059-0a81deb35f10: 'About Crafty Coffee' # About Crafty Coffee
+    5cff0a89-b9cc-444e-a959-192b3bea24bf: 'About Page Copy' # About Page Copy
+    6a501b53-024d-4374-8fc7-cecb0eb5ba45: Recipes # Recipes
+    8a074134-82f5-4dd7-92f3-1d6b5746dc13: Image # Image
+    9e80ba3a-5c74-415b-9fe0-9fa1f4ae17b7: Default # Default
+    11c68933-08d5-49ba-a56d-cdcb689a3f06: Styles # Styles
+    29c126d1-29f1-477a-b04f-08f033e88182: Homepage # Homepage
+    030feb9b-171b-4604-beba-4ce20a542aea: 'Recipe Ingredients' # Recipe Ingredients
+    34d11e95-19c1-4661-b55d-7fe397a46924: 'Drink Styles' # Drink Styles
+    48b6b5c5-f79d-421f-a08d-3697c8e2584f: Homepage # Homepage
+    68adb824-3b82-4cec-87bc-c588ec42db60: About # About
+    76f34821-ba82-4b35-9cef-0ace626928ed: 'Steps Content' # Steps Content
+    82c05390-b2dd-48d1-a595-848fcd635c0c: 'Recipe Image' # Recipe Image
+    88e04240-b5a6-4188-b651-a9516937d60d: Introduction # Introduction
+    97bc2455-7a63-4f72-9e3e-320689d9114d: 'Drink Recipe' # Drink Recipe
+    98c81ca0-e788-469f-a12c-e07d3af972c4: Subtitle # Subtitle
+    367b0075-9ec5-4215-a1df-cf864b8174b1: Default # Default
+    409d28fb-240c-4f11-8c52-563b0f2a74fa: 'Steps Title' # Steps Title
+    468c7a66-2a95-4bea-aeba-feccdce4f676: Ingredients # Ingredients
+    829dcad4-4f57-469b-ab19-90a051884f85: 'Recipe Copy' # Recipe Copy
+    1402bdaf-929b-4423-8723-e20141689b6b: News # News
+    1554bdd4-fabf-4f7f-837d-df2549484fee: 'Page Copy' # Page Copy
+    1609f9cc-2b9a-4b5f-8d4a-886aa9578044: 'Style Description ' # Style Description 
+    3113d489-8841-43fb-803d-5c1c5dd3247f: 'Header Image' # Header Image
+    8309e632-b810-4fb1-9063-31f8882fa69c: 'Tip content' # Tip content
+    11851a68-ad9f-443d-9402-e31f4b444ed3: Excerpt # Excerpt
+    053894d7-d999-48b9-849c-da5f5082b5f2: Common # Common
+    556471e6-b6e4-4b51-af2c-39d53cd9e6da: craftycoffee # craftycoffee
+    04385993-f51b-4ab1-a4c2-d6a6a85100ef: 'Drink Image' # Drink Image
+    8753086a-029b-4530-87be-a3f3fab4e31e: 'Recipe Contents' # Recipe Contents
+    a015d586-0855-4711-a6c2-cc89db9f22dd: craftycoffee # craftycoffee
+    b863e301-99af-4e74-a36f-c01448804216: 'About Intro' # About Intro
+    b9830426-6c00-4da5-8522-8e119275f8dd: Drinks # Drinks
+    be0614da-ccde-4c57-83e0-fd2311c488ff: 'Recipes Steps' # Recipes Steps
+    c4a64939-b6fd-4489-aafe-f4a95cfbe247: Drinks # Drinks
+    c7c99e5a-781c-4f79-a261-fa069134578d: 'Body Content' # Body Content
+    e45775b5-a8d1-4bcf-bd41-3eb2d78d46d8: 'Image Caption' # Image Caption
+    ed6c6878-3c4a-41ff-9de0-5397f9496474: Recipes # Recipes
+    f6450a21-cee6-4a38-b3f9-f5f958ef1227: News # News
+    fe4d2410-8a1a-4c1a-aa5e-ad9323383bec: 'News Body' # News Body
+    ff693e9c-d621-40b6-8d5e-d984914ad01b: 'Recipe Tip' # Recipe Tip
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: craftycoffee
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

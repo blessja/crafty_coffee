@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: news
+name: News
+propagationMethod: all
+siteSettings:
+  556471e6-b6e4-4b51-af2c-39d53cd9e6da: # craftycoffee
+    enabledByDefault: true
+    hasUrls: true
+    template: news/_entry
+    uriFormat: 'news/{slug}'
+type: channel

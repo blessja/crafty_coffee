@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: drinks
+name: Drinks
+propagationMethod: all
+siteSettings:
+  556471e6-b6e4-4b51-af2c-39d53cd9e6da: # craftycoffee
+    enabledByDefault: true
+    hasUrls: true
+    template: drinks/_entry
+    uriFormat: 'drinks/{slug}'
+type: channel

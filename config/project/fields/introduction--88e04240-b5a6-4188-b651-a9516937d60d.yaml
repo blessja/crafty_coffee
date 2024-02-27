@@ -1,0 +1,19 @@
+columnSuffix: dsrwobbi
+contentColumnType: text
+fieldGroup: 3a9130b9-bf1a-42a0-8b42-c14e0a59c03a # Drinks
+handle: introduction
+instructions: 'short sentence at top of drink page.'
+name: Introduction
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

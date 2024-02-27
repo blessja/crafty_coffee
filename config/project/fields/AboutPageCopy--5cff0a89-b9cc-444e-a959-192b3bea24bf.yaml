@@ -1,0 +1,19 @@
+columnSuffix: amghdgsg
+contentColumnType: text
+fieldGroup: 68adb824-3b82-4cec-87bc-c588ec42db60 # About
+handle: AboutPageCopy
+instructions: null
+name: 'About Page Copy'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

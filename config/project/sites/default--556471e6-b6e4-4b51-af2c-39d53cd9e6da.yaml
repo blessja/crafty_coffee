@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: craftycoffee
+primary: true
+siteGroup: a015d586-0855-4711-a6c2-cc89db9f22dd # craftycoffee
+sortOrder: 1

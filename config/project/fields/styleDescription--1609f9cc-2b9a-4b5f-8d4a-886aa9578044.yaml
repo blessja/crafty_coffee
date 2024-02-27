@@ -1,0 +1,19 @@
+columnSuffix: yhueasli
+contentColumnType: text
+fieldGroup: 11c68933-08d5-49ba-a56d-cdcb689a3f06 # Styles
+handle: styleDescription
+instructions: null
+name: 'Style Description '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
